@@ -33,7 +33,7 @@
 /* typography */
 
 body {
-	font: 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, 
+	font: 16px/22px "Montserrat", "Helvetica Neue", Helvetica, Arial, 
 				sans-serif;
 }
 
@@ -186,13 +186,15 @@ h2 {
   top: 50%;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
 }
 
 .btn {
 	background: #F6B26B;
 	border: 0;
 	font-size: 14px;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, 
+				sans-serif;
 	padding: 4px 10px;
 	border: 0;
 	-webkit-box-shadow: 4px 4px 2px 0px rgba(0,0,0,0.75);
@@ -204,12 +206,34 @@ h2 {
 
 .footer-wrapper {
 	background: #000;
-	height: 150px;
+	height: 200px;
 	position: relative;
 	margin-top: 40px;
 }
 
+.footer-elements {
+	position: absolute;
+	top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  line-height: 36px;
+}
+
 .footer-wrapper img {
 	width: 30px;
+	margin-right: 10px;
+	vertical-align: bottom;
+}
+
+.footer-wrapper span {
+	text-transform: uppercase;
+	color: #F6B26B;
+	display: inline-block;
+	padding-left: 40px;
+}
+
+.footer-elements div {
+	color: #fff;
 }
 
